@@ -64,12 +64,17 @@ GPT3_MODELS = {
     "davinci": 2049,
 }
 
+CUST_MODELS = {
+    "vicuna-13b-v1.3": 2047,
+    "chatglm2-6b": 2047,
+}
+
 ALL_AVAILABLE_MODELS = {
     **GPT4_MODELS,
     **TURBO_MODELS,
     **GPT3_5_MODELS,
     **GPT3_MODELS,
-    **AZURE_TURBO_MODELS,
+    **CUST_MODELS,
 }
 
 CHAT_MODELS = {
